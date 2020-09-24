@@ -1,0 +1,16 @@
+...Comp Geom...
+7 Num Comps
+9 Total Num Meshes
+3328 Total Num Tris
+
+Theo_Area   Wet_Area   Theo_Vol    Wet_Vol  Name
+    0.277      0.269      0.002      0.002  Forward wing   
+    0.384      0.383      0.004      0.004  Aft wing       
+    0.015      0.010      0.000      0.000  Electronics blister
+    0.026      0.022      0.000      0.000  StackGeom      
+    0.033      0.028      0.000      0.000  Vertical stabilizer
+    0.007      0.005      0.000      0.000  Engine nacelle 
+-------------------------------------------------
+    0.742      0.716      0.007      0.006  Totals         
+WARNING: 1 open meshes removed
+WARNING: 2 open meshes merged
