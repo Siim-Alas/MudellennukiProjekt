@@ -11,12 +11,12 @@
         <CORZ Value="0.000000000000000000e+00" ID="MRMVBFNXJAJ"/>
         <PanX Value="0.000000000000000000e+00" ID="ZEQAHDOBLUK"/>
         <PanY Value="0.000000000000000000e+00" ID="FMYLIRCOXXG"/>
-        <RotationX Value="8.267428994037015855e+01" ID="UZQFEOAWCCK"/>
-        <RotationY Value="-4.734716843975728295e+01" ID="OTLPIPPQZBG"/>
-        <RotationZ Value="-5.338010377890029901e+01" ID="ZWMQSAQJQMB"/>
+        <RotationX Value="8.974743576934943690e+01" ID="UZQFEOAWCCK"/>
+        <RotationY Value="3.065986967940921737e+00" ID="OTLPIPPQZBG"/>
+        <RotationZ Value="0.000000000000000000e+00" ID="ZWMQSAQJQMB"/>
         <ViewportX Value="0.000000000000000000e+00" ID="ELFGXOIQYII"/>
         <ViewportY Value="0.000000000000000000e+00" ID="TOEWMGQPFMM"/>
-        <Zoom Value="1.046695280820131302e-03" ID="QRWYUPWYFGA"/>
+        <Zoom Value="6.867367774248123169e-04" ID="QRWYUPWYFGA"/>
       </AdjustView>
       <AirfoilExport>
         <AFAppendGeomIDFlag Value="1.000000000000000000e+00" ID="TEMWFQCGSOA"/>
@@ -7474,9 +7474,9 @@ void Scale(double curr_scale )
         <Vref Value="1.000000000000000000e+01" ID="SRWXEEEHVNM"/>
         <WakeNumIter Value="5.000000000000000000e+00" ID="JSMXPUGQKVJ"/>
         <Write2DFEMFlag Value="0.000000000000000000e+00" ID="XBBKPWQFKGJ"/>
-        <Xcg Value="2.250000000000000056e-01" ID="GHIHMVWKJXR"/>
-        <Ycg Value="7.394139053727880731e-08" ID="WVLUDUDCSAT"/>
-        <Zcg Value="5.644047045053877942e-02" ID="JOMOHFMJJDY"/>
+        <Xcg Value="1.950000000000000067e-01" ID="GHIHMVWKJXR"/>
+        <Ycg Value="3.669362560572769368e-08" ID="WVLUDUDCSAT"/>
+        <Zcg Value="5.627507412239616397e-02" ID="JOMOHFMJJDY"/>
         <bref Value="1.019803902718556810e+00" ID="DBSHNTWYXPV"/>
         <cref Value="1.274754878398196567e-01" ID="YBITZGLYMEB"/>
         <m_ConvergenceXMax Value="5.000000000000000000e+00" ID="CQOLKUMYVMX"/>
@@ -7507,9 +7507,9 @@ void Scale(double curr_scale )
         <m_SweepXMaxIsManual Value="0.000000000000000000e+00" ID="JGCYVYVQHVS"/>
         <m_SweepXMin Value="-1.000000000000000000e+01" ID="GPZPPAEROXW"/>
         <m_SweepXMinIsManual Value="0.000000000000000000e+00" ID="DMXJBWEGTEC"/>
-        <m_SweepYMax Value="1.000000000000000000e+00" ID="JFVHTFZVDZV"/>
+        <m_SweepYMax Value="4.000000000000000000e+00" ID="JFVHTFZVDZV"/>
         <m_SweepYMaxIsManual Value="0.000000000000000000e+00" ID="BAFUUEFKFJK"/>
-        <m_SweepYMin Value="-1.000000000000000000e+00" ID="UFKXMKONTPG"/>
+        <m_SweepYMin Value="-2.000000000000000000e+00" ID="UFKXMKONTPG"/>
         <m_SweepYMinIsManual Value="0.000000000000000000e+00" ID="XLOEKEHXDKW"/>
         <m_UnsteadyXMax Value="1.000000000000000000e+00" ID="AVOENHBLCOG"/>
         <m_UnsteadyXMaxIsManual Value="0.000000000000000000e+00" ID="WVZCKGXLDTY"/>
