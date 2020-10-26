@@ -10,25 +10,21 @@ Beta = 0.000000
 Vinf = 10.000000 
 Rho = 0.002377 
 ReCref = 94644.000000 
-ClMax = -1.000000 
+ClMax = 1.250000 
 MaxTurningAngle = -1.000000 
 Symmetry = NO 
 FarDist = -1.000000 
 NumWakeNodes = 64 
 WakeIters = 5 
-NumberOfControlGroups = 3 
-Ailerons
-Forward_wing_Surf0_Ailerons,Forward_wing_Surf1_Ailerons
--1, -1
-0
-Elevator
-Forward_wing_Surf0_Elevators,Forward_wing_Surf1_Elevators
-1, -1
-0
+NumberOfControlGroups = 2 
 Rudder
 Vertical_stabilizer_Surf0_Rudder
 1
 0
+Elevons_Pitch
+Forward_wing_Surf0_Elevons,Forward_wing_Surf1_Elevons
+1, -1
+10
 Preconditioner = Matrix 
 Karman-Tsien Correction = N 
 Stability Type = 0 

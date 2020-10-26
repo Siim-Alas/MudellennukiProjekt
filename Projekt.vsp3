@@ -16,7 +16,7 @@
         <RotationZ Value="0.000000000000000000e+00" ID="ZWMQSAQJQMB"/>
         <ViewportX Value="0.000000000000000000e+00" ID="ELFGXOIQYII"/>
         <ViewportY Value="0.000000000000000000e+00" ID="TOEWMGQPFMM"/>
-        <Zoom Value="6.867367774248123169e-04" ID="QRWYUPWYFGA"/>
+        <Zoom Value="1.351773389615118504e-03" ID="QRWYUPWYFGA"/>
       </AdjustView>
       <AirfoilExport>
         <AFAppendGeomIDFlag Value="1.000000000000000000e+00" ID="TEMWFQCGSOA"/>
@@ -555,7 +555,7 @@
           <SubSurface>
             <ParmContainer>
               <ID>HLCGBRYNDH</ID>
-              <Name>Ailerons</Name>
+              <Name>Elevons</Name>
               <FeaSubSurface>
                 <CapFeaPropertyIndex Value="1.000000000000000000e+00" ID="HQCTHLKSUNR"/>
                 <DrawFeaPartFlag Value="1.000000000000000000e+00" ID="UXDGZPKBYEN"/>
@@ -587,61 +587,13 @@
                 <Surf_Type Value="2.000000000000000000e+00" ID="ZHCFKHAEXYA"/>
                 <Tess_Num Value="1.500000000000000000e+01" ID="IWSHZLIKGWB"/>
                 <Test_Type Value="0.000000000000000000e+00" ID="FHACAHFFULY"/>
-                <UEnd Value="6.600000000000000311e-01" ID="VHQAZDHAGGM"/>
-                <UStart Value="5.500000000000000444e-01" ID="XCGSGEQIHRY"/>
+                <UEnd Value="6.402439024390244038e-01" ID="VHQAZDHAGGM"/>
+                <UStart Value="4.085365853658536328e-01" ID="XCGSGEQIHRY"/>
               </SS_Control>
               <SubSurface>
                 <IncludeFlag Value="0.000000000000000000e+00" ID="KYCYMRAFZVE"/>
                 <IncludedElements Value="0.000000000000000000e+00" ID="CCCFVTGIFAI"/>
                 <MainSurfIndx Value="0.000000000000000000e+00" ID="KVTJDGZHVCP"/>
-              </SubSurface>
-            </ParmContainer>
-            <SubSurfaceInfo>
-              <Type>3</Type>
-            </SubSurfaceInfo>
-          </SubSurface>
-          <SubSurface>
-            <ParmContainer>
-              <ID>TMWHCKQKKZ</ID>
-              <Name>Elevators</Name>
-              <FeaSubSurface>
-                <CapFeaPropertyIndex Value="1.000000000000000000e+00" ID="WPGMJYQHLQZ"/>
-                <DrawFeaPartFlag Value="1.000000000000000000e+00" ID="TMQIGBDLFYB"/>
-                <FeaPropertyIndex Value="0.000000000000000000e+00" ID="PMDEYUDHXIM"/>
-              </FeaSubSurface>
-              <ParasiteDragProps>
-                <FFBodyEqnType Value="3.000000000000000000e+00" ID="YYJDOSUVFAR"/>
-                <FFUser Value="1.000000000000000000e+00" ID="VSPALYTLKKY"/>
-                <FFWingEqnType Value="3.000000000000000000e+00" ID="ETUMWRQKROH"/>
-                <PercLam Value="0.000000000000000000e+00" ID="ODUTRTPNXUR"/>
-                <Q Value="1.000000000000000000e+00" ID="WWEMOKHHKKP"/>
-                <Roughness Value="-1.000000000000000000e+00" ID="BKQIGBQAZAB"/>
-                <TawTwRatio Value="-1.000000000000000000e+00" ID="JXEOINITRBG"/>
-                <TeTwRatio Value="-1.000000000000000000e+00" ID="CNAUVWZCDFG"/>
-              </ParasiteDragProps>
-              <SS_Control>
-                <Abs_Rel_Flag Value="1.000000000000000000e+00" ID="VDHDRNZTWRF"/>
-                <EndAngle Value="9.000000000000000000e+01" ID="VOYRNCVLNKP"/>
-                <EndAngleFlag Value="0.000000000000000000e+00" ID="VAQSFJKTPFP"/>
-                <LE_Flag Value="0.000000000000000000e+00" ID="MEKZDXMCAPL"/>
-                <Length_C_End Value="2.500000000000000000e-01" ID="UADDNVHKLKW"/>
-                <Length_C_Start Value="2.500000000000000000e-01" ID="DLEDBUNGNDS"/>
-                <Length_End Value="3.186887195995491417e-02" ID="AFVOGWCBHLT"/>
-                <Length_Start Value="3.186887195995491417e-02" ID="YGLUPLYPCNF"/>
-                <SE_Const_Flag Value="1.000000000000000000e+00" ID="ALQSBXPJRBW"/>
-                <SameAngleFlag Value="1.000000000000000000e+00" ID="ROMRIGZSYDU"/>
-                <StartAngle Value="9.000000000000000000e+01" ID="ZFVOZBXRUOR"/>
-                <StartAngleFlag Value="0.000000000000000000e+00" ID="OJKJVHDKOOA"/>
-                <Surf_Type Value="2.000000000000000000e+00" ID="DSPWMFDWICF"/>
-                <Tess_Num Value="1.500000000000000000e+01" ID="CEJFKFDCRZA"/>
-                <Test_Type Value="0.000000000000000000e+00" ID="ATLUZSBMTAF"/>
-                <UEnd Value="5.300000000000000266e-01" ID="PIXGJGVMGTT"/>
-                <UStart Value="3.499999999999999778e-01" ID="ZXDEPWNXPSN"/>
-              </SS_Control>
-              <SubSurface>
-                <IncludeFlag Value="0.000000000000000000e+00" ID="BSKWFJSSQFB"/>
-                <IncludedElements Value="0.000000000000000000e+00" ID="GDZEXAKUBYD"/>
-                <MainSurfIndx Value="0.000000000000000000e+00" ID="LRWGHIENVQG"/>
               </SubSurface>
             </ParmContainer>
             <SubSurfaceInfo>
@@ -7428,8 +7380,8 @@ void Scale(double curr_scale )
         <BetaEnd Value="3.000000000000000000e+01" ID="YYTCLYXGDUW"/>
         <BetaNpts Value="1.000000000000000000e+00" ID="ICBUHYHAFGD"/>
         <BetaStart Value="0.000000000000000000e+00" ID="CFGKDLUMWOO"/>
-        <Clmax Value="-1.000000000000000000e+00" ID="NTMNFQNIQXC"/>
-        <ClmaxToggle Value="0.000000000000000000e+00" ID="AZMJPMQSVDU"/>
+        <Clmax Value="1.250000000000000000e+00" ID="NTMNFQNIQXC"/>
+        <ClmaxToggle Value="1.000000000000000000e+00" ID="AZMJPMQSVDU"/>
         <CpSliceFlag Value="1.000000000000000000e+00" ID="SAJJUVFVUXX"/>
         <CpSlicePlotLinesFlag Value="1.000000000000000000e+00" ID="CGJHFCESECE"/>
         <CpSliceYAxisFlipFlag Value="0.000000000000000000e+00" ID="QKCKYGRNIVO"/>
@@ -7483,9 +7435,9 @@ void Scale(double curr_scale )
         <m_ConvergenceXMaxIsManual Value="0.000000000000000000e+00" ID="XEAPJWGSUQS"/>
         <m_ConvergenceXMin Value="1.000000000000000000e+00" ID="IAREUYLWCHJ"/>
         <m_ConvergenceXMinIsManual Value="0.000000000000000000e+00" ID="MYLVWLVMAHH"/>
-        <m_ConvergenceYMax Value="0.000000000000000000e+00" ID="WEDWHZCIGUV"/>
+        <m_ConvergenceYMax Value="1.000000000000000000e+00" ID="WEDWHZCIGUV"/>
         <m_ConvergenceYMaxIsManual Value="0.000000000000000000e+00" ID="HYGHDNCEWXQ"/>
-        <m_ConvergenceYMin Value="-4.000000000000000000e+00" ID="PZSHQFMTXUJ"/>
+        <m_ConvergenceYMin Value="-5.000000000000000000e+00" ID="PZSHQFMTXUJ"/>
         <m_ConvergenceYMinIsManual Value="0.000000000000000000e+00" ID="KFMZWKHLTSZ"/>
         <m_CpSliceXMax Value="1.000000000000000000e+00" ID="UGBXKODZDWB"/>
         <m_CpSliceXMaxIsManual Value="0.000000000000000000e+00" ID="YAHYEXSVJQW"/>
@@ -7507,9 +7459,9 @@ void Scale(double curr_scale )
         <m_SweepXMaxIsManual Value="0.000000000000000000e+00" ID="JGCYVYVQHVS"/>
         <m_SweepXMin Value="-1.000000000000000000e+01" ID="GPZPPAEROXW"/>
         <m_SweepXMinIsManual Value="0.000000000000000000e+00" ID="DMXJBWEGTEC"/>
-        <m_SweepYMax Value="4.000000000000000000e+00" ID="JFVHTFZVDZV"/>
+        <m_SweepYMax Value="3.000000000000000000e+00" ID="JFVHTFZVDZV"/>
         <m_SweepYMaxIsManual Value="0.000000000000000000e+00" ID="BAFUUEFKFJK"/>
-        <m_SweepYMin Value="-2.000000000000000000e+00" ID="UFKXMKONTPG"/>
+        <m_SweepYMin Value="-1.000000000000000000e+00" ID="UFKXMKONTPG"/>
         <m_SweepYMinIsManual Value="0.000000000000000000e+00" ID="XLOEKEHXDKW"/>
         <m_UnsteadyXMax Value="1.000000000000000000e+00" ID="AVOENHBLCOG"/>
         <m_UnsteadyXMaxIsManual Value="0.000000000000000000e+00" ID="WVZCKGXLDTY"/>
@@ -7521,55 +7473,7 @@ void Scale(double curr_scale )
         <m_UnsteadyYMinIsManual Value="0.000000000000000000e+00" ID="KZZLOGAPCHC"/>
       </VSPAERO>
     </ParmContainer>
-    <ControlSurfaceGroupCount>3</ControlSurfaceGroupCount>
-    <Control_Surface_Group>
-      <ParentGeomBase/>
-      <NumberOfControlSubSurfaces>2</NumberOfControlSubSurfaces>
-      <Control_Surface>
-        <SSID>HLCGBRYNDH</SSID>
-        <ParentGeomID>AJENLEISHW</ParentGeomID>
-        <iReflect>0</iReflect>
-      </Control_Surface>
-      <Control_Surface>
-        <SSID>HLCGBRYNDH</SSID>
-        <ParentGeomID>AJENLEISHW</ParentGeomID>
-        <iReflect>1</iReflect>
-      </Control_Surface>
-      <ParmContainer>
-        <ID>EXYJWIWPPA</ID>
-        <Name>Ailerons</Name>
-        <ControlSurfaceGroup>
-          <ActiveFlag Value="1.000000000000000000e+00" ID="YAJLZXAUDNC"/>
-          <DeflectionAngle Value="0.000000000000000000e+00" ID="EJQKNMXJJVA"/>
-          <Surf_HLCGBRYNDH_0_Gain Value="-1.000000000000000000e+00" ID="BZNHVJLSGUU"/>
-          <Surf_HLCGBRYNDH_1_Gain Value="-1.000000000000000000e+00" ID="VPIVOELANNX"/>
-        </ControlSurfaceGroup>
-      </ParmContainer>
-    </Control_Surface_Group>
-    <Control_Surface_Group>
-      <ParentGeomBase/>
-      <NumberOfControlSubSurfaces>2</NumberOfControlSubSurfaces>
-      <Control_Surface>
-        <SSID>TMWHCKQKKZ</SSID>
-        <ParentGeomID>AJENLEISHW</ParentGeomID>
-        <iReflect>0</iReflect>
-      </Control_Surface>
-      <Control_Surface>
-        <SSID>TMWHCKQKKZ</SSID>
-        <ParentGeomID>AJENLEISHW</ParentGeomID>
-        <iReflect>1</iReflect>
-      </Control_Surface>
-      <ParmContainer>
-        <ID>GMTJAHXKGR</ID>
-        <Name>Elevator</Name>
-        <ControlSurfaceGroup>
-          <ActiveFlag Value="1.000000000000000000e+00" ID="PQNLISRBMGM"/>
-          <DeflectionAngle Value="0.000000000000000000e+00" ID="IMBEWFCGWXX"/>
-          <Surf_TMWHCKQKKZ_0_Gain Value="1.000000000000000000e+00" ID="UPVXJNMPOKE"/>
-          <Surf_TMWHCKQKKZ_1_Gain Value="-1.000000000000000000e+00" ID="VEPYVYTUCYT"/>
-        </ControlSurfaceGroup>
-      </ParmContainer>
-    </Control_Surface_Group>
+    <ControlSurfaceGroupCount>2</ControlSurfaceGroupCount>
     <Control_Surface_Group>
       <ParentGeomBase/>
       <NumberOfControlSubSurfaces>1</NumberOfControlSubSurfaces>
@@ -7585,6 +7489,30 @@ void Scale(double curr_scale )
           <ActiveFlag Value="1.000000000000000000e+00" ID="YIOPSPELPGT"/>
           <DeflectionAngle Value="0.000000000000000000e+00" ID="OXDVAVHPBEN"/>
           <Surf_GZKZUEPRGI_0_Gain Value="1.000000000000000000e+00" ID="GKVIRSBFQLI"/>
+        </ControlSurfaceGroup>
+      </ParmContainer>
+    </Control_Surface_Group>
+    <Control_Surface_Group>
+      <ParentGeomBase/>
+      <NumberOfControlSubSurfaces>2</NumberOfControlSubSurfaces>
+      <Control_Surface>
+        <SSID>HLCGBRYNDH</SSID>
+        <ParentGeomID>AJENLEISHW</ParentGeomID>
+        <iReflect>0</iReflect>
+      </Control_Surface>
+      <Control_Surface>
+        <SSID>HLCGBRYNDH</SSID>
+        <ParentGeomID>AJENLEISHW</ParentGeomID>
+        <iReflect>1</iReflect>
+      </Control_Surface>
+      <ParmContainer>
+        <ID>OPHHJREAHK</ID>
+        <Name>Elevons_Pitch</Name>
+        <ControlSurfaceGroup>
+          <ActiveFlag Value="1.000000000000000000e+00" ID="DSDQHGEYDEP"/>
+          <DeflectionAngle Value="1.000000000000000000e+01" ID="NWOJNPBEPPQ"/>
+          <Surf_HLCGBRYNDH_0_Gain Value="1.000000000000000000e+00" ID="HNIPRHVTQWX"/>
+          <Surf_HLCGBRYNDH_1_Gain Value="-1.000000000000000000e+00" ID="LGAZHCTSFNG"/>
         </ControlSurfaceGroup>
       </ParmContainer>
     </Control_Surface_Group>
